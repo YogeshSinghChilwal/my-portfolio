@@ -1,9 +1,14 @@
-import Image from "next/image";
+import Details from "@/components/details/details";
+import Projects from "@/components/projects/projects";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      
+    <div className="min-h-screen w-screen bg-zinc-900 mx-auto overflow-hidden">
+      <div className="flex md:px-4 mx-auto max-w-[1400px]">
+        <Details />
+        <Projects />
+      </div>
     </div>
   );
 }
