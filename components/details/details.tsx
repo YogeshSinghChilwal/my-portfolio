@@ -24,17 +24,17 @@ const Details = () => {
             </p>
           </div>
           <div className="flex gap-3 justify-center mt-2">
-            <div className="text-gray-400 hover:text-white">
+            <div className="text-gray-400 hover:text-white transition duration-300 ease-in-out transform">
               <Link href={"https://github.com/YogeshSinghChilwal"}>
                 <Github />
               </Link>
             </div>
-            <div className="text-gray-400 hover:text-white">
+            <div className="text-gray-400 hover:text-white transition duration-300 ease-in-out transform">
               <Link href={"https://github.com/YogeshSinghChilwal"}>
                 <Twitter />
               </Link>
             </div>
-            <div className="text-gray-400 hover:text-white">
+            <div className="text-gray-400 hover:text-white transition duration-300 ease-in-out transform">
               <Link href={"https://github.com/YogeshSinghChilwal"}>
                 <Linkedin />
               </Link>

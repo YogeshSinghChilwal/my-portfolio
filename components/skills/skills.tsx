@@ -12,7 +12,7 @@ const Skills = () => {
       <div className="mt-3 grid grid-cols-3 lg:grid-cols-4 gap-1 lg:gap-2">
         {
           skillsData.map(({title, path}) => (
-            <SkillsSvg title={title} path={path} />
+            <SkillsSvg key={title} title={title} path={path} />
           ))
         }
         

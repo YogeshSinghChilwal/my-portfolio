@@ -10,7 +10,7 @@ export default function AvatarPopup() {
   return (
     <>
       <Avatar onClick={() => setOpen(true)} className="w-20 h-20 lg:w-24 lg:h-24 min-w-10 min-h-10 border-white border-2">
-            <AvatarImage className="" src={"/profile.jpg"} alt="profile pic" />
+            <AvatarImage src={"/profile.jpg"} alt="profile pic" />
             <AvatarFallback>YC</AvatarFallback>
           </Avatar>
 
