@@ -3,8 +3,8 @@ import {skillsData} from '@/config/skills-svg-title'
 
 const Skills = () => {
   return (
-    <div>
-      <div>
+    <div className="bg-zinc-900 py-2 md:py-0 rounded-xl md:bg-none md:rounded-none">
+      <div >
         <h3 className="text-gray-400 font-semibold uppercase tracking-wider">
           Skills
         </h3>

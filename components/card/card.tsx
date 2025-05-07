@@ -20,7 +20,7 @@ const Card = ({
 }: PropsType) => {
   return (
     <div className="bg-[#2D2D30] w-fit rounded-md transition duration-300 ease-in-out transform hover:shadow-2xs">
-      <div >
+      <div>
         <div>
           <CardImage image={image} />
         </div>
@@ -49,9 +49,7 @@ const Card = ({
                     <span className="animate-ping  absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75"></span>
                     <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
                   </span>
-                  <button className="" type="button">
-                    LIVE
-                  </button>
+                  <button type="button">LIVE</button>
                 </div>
               </Link>
             </div>
