@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useState } from "react";
 import { AspectRatio } from "../ui/aspect-ratio";
 

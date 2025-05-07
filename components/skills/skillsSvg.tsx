@@ -1,4 +1,3 @@
-import React from "react";
 
 const SkillsSvg = ({ title, path }: { title: string; path: string }) => {
   return (
