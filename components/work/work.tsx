@@ -18,16 +18,18 @@ const Work = () => {
                 github="https://github.com/YogeshSinghChilwal/layerify-ai"
                 liveLink="https://layerify-ai.vercel.app/"
                 image="/projectsPic/layerifyProjectImage.png"
-                date="Fab, 2025"
+                date="Feb, 2025"
+                techstacks={["Next.js", "Typescript", "Shadcn/ui", "Aceternity UI","Canvas API", "Imagly"]}
               />
 
               <Card
                 title="Dictionary4U"
-                description="It lets you to remove background image, change background and add text between layers for Free of cost with high quality."
+                description="A user-friendly dictionary app where users can search word meanings, listen to pronunciations, and save their search history."
                 github="https://github.com/YogeshSinghChilwal/Dictionary4U"
                 liveLink="https://dictionary4u.onrender.com/"
                 image="/projectsPic/dictionary4uProjectImage.png"
                 date="Jan, 2025"
+                techstacks={["React", "Typescript", "Tailwind CSS", "Zod", "Shadcn/ui", "OAuth", "Node.js", "Express", "MongoDB", "JWT"]}
               />
             </div>
           </div>

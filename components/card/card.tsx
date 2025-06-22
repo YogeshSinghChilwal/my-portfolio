@@ -8,6 +8,7 @@ interface PropsType {
   github: string;
   liveLink: string;
   date?: string;
+  techstacks?: string[]
 }
 
 const Card = ({
@@ -17,6 +18,7 @@ const Card = ({
   github,
   liveLink,
   date,
+  techstacks
 }: PropsType) => {
   return (
     <div className="bg-[#2D2D30] w-fit rounded-md transition duration-300 ease-in-out transform hover:shadow-2xs">
@@ -31,11 +33,20 @@ const Card = ({
           </div>
           <div>
             <p className="text-zinc-300 mt-1 text-base">{description}</p>
+            <div className="mt-2 flex gap-2 flex-wrap">
+              {techstacks?.map((techstack) => (
+                <div className="bg-[#212124] w-fit px-2 py-1.5 rounded-md flex justify-center items-center">
+                <span className="text-xs tracking-wider text-slate-200 font-semibold">{techstack}</span>
+              </div>
+              ))}
+              
+              
+            </div>
             <div className="mt-2 lg:mt-3 flex items-center gap-3">
               <Link href={github} target="_blank">
                 <svg
                   role="img"
-                  className="text-gray-500 w-6 h-6 hover:text-zinc-100 transition duration-300 ease-in-out transform"
+                  className="text-gray-500 w-6 h-6 hover:text-zinc-100 hover:scale-120 transition duration-300 ease-in-out transform"
                   viewBox="0 0 24 24"
                   fill="currentColor"
                 >
@@ -44,7 +55,7 @@ const Card = ({
                 </svg>
               </Link>
               <Link href={liveLink} target="_blank">
-                <div className="flex justify-center items-center gap-1.5 bg-gray-500 px-2 py-0.5  rounded-md font-medium text-zinc-300 hover:text-zinc-100 hover:bg-gray-600 transition duration-300 ease-in-out transform">
+                <div className="flex justify-center items-center gap-1.5 bg-gray-500 px-2 py-0.5  rounded-md font-medium text-zinc-300 hover:text-zinc-100 hover:bg-gray-600 hover:scale-110 transition duration-300 ease-in-out transform">
                   <span className="relative flex justify-center items-center h-3 w-3">
                     <span className="animate-ping  absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75"></span>
                     <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
