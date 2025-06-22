@@ -1,4 +1,3 @@
-import CurrentWorkingProjects from "./currentProjects";
 import Experience from "./experience";
 import TopProjects from "./topProjects";
 
