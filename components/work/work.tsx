@@ -19,7 +19,14 @@ const Work = () => {
                 liveLink="https://layerify-ai.vercel.app/"
                 image="/projectsPic/layerifyProjectImage.png"
                 date="Feb, 2025"
-                techstacks={["Next.js", "Typescript", "Shadcn/ui", "Aceternity UI","Canvas API", "Imagly"]}
+                techstacks={[
+                  "Next.js",
+                  "Typescript",
+                  "Shadcn/ui",
+                  "Aceternity UI",
+                  "Canvas API",
+                  "Imagly",
+                ]}
               />
 
               <Card
@@ -29,7 +36,18 @@ const Work = () => {
                 liveLink="https://dictionary4u.onrender.com/"
                 image="/projectsPic/dictionary4uProjectImage.png"
                 date="Jan, 2025"
-                techstacks={["React", "Typescript", "Tailwind CSS", "Zod", "Shadcn/ui", "OAuth", "Node.js", "Express", "MongoDB", "JWT"]}
+                techstacks={[
+                  "React",
+                  "Typescript",
+                  "Tailwind CSS",
+                  "Zod",
+                  "Shadcn/ui",
+                  "OAuth",
+                  "Node.js",
+                  "Express",
+                  "MongoDB",
+                  "JWT",
+                ]}
               />
             </div>
           </div>

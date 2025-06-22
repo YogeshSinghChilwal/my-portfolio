@@ -8,7 +8,7 @@ interface PropsType {
   github: string;
   liveLink: string;
   date?: string;
-  techstacks?: string[]
+  techstacks?: string[];
 }
 
 const Card = ({
@@ -18,7 +18,7 @@ const Card = ({
   github,
   liveLink,
   date,
-  techstacks
+  techstacks,
 }: PropsType) => {
   return (
     <div className="bg-[#2D2D30] w-fit rounded-md transition duration-300 ease-in-out transform hover:shadow-2xs">
@@ -35,12 +35,12 @@ const Card = ({
             <p className="text-zinc-300 mt-1 text-base">{description}</p>
             <div className="mt-2 flex gap-2 flex-wrap">
               {techstacks?.map((techstack) => (
-                <div className="bg-[#212124] w-fit px-2 py-1.5 rounded-md flex justify-center items-center">
-                <span className="text-xs tracking-wider text-slate-200 font-semibold">{techstack}</span>
-              </div>
+                <div key={techstack} className="bg-[#212124] w-fit px-2 py-1.5 rounded-md flex justify-center items-center">
+                  <span className="text-xs tracking-wider text-slate-200 font-semibold">
+                    {techstack}
+                  </span>
+                </div>
               ))}
-              
-              
             </div>
             <div className="mt-2 lg:mt-3 flex items-center gap-3">
               <Link href={github} target="_blank">
