@@ -15,6 +15,7 @@ const CurrentWorkingProjects = () => {
             description="Currently building a platform that helps YouTubers grow their channels by providing new video ideas, SEO-friendly tags, and other content optimization tools."
             image="/currentProjects/YTProKit.png"
             date="May, 2025"
+            liveLink="https://yt-pro-kit.vercel.app/"
             techstacks={[
               "Next.js",
               "Typescript",

@@ -1,3 +1,4 @@
+import CurrentWorkingProjects from "./currentProjects";
 import Experience from "./experience";
 import TopProjects from "./topProjects";
 
@@ -9,7 +10,7 @@ const Work = () => {
           <div className="flex flex-wrap">
             <TopProjects />
             <Experience />
-            {/* <CurrentWorkingProjects /> */}
+            <CurrentWorkingProjects />
           </div>
         </div>
       </div>
