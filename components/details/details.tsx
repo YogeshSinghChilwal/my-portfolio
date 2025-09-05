@@ -3,6 +3,7 @@ import Link from "next/link";
 import Skills from "../skills/skills";
 import Avatar from "../avatar/avatar";
 import MobileSkills from "../skills/mobileSkills";
+import GetInTouchButton from "../contact/get-in-touch-button";
 
 const Details = () => {
   return (
@@ -58,7 +59,13 @@ const Details = () => {
             </div>
             <MobileSkills />
           </div>
+          <div className="mt-2 md:hidden">
+         <GetInTouchButton  />
+      </div>
         </div>
+      </div>
+      <div className="mt-2 hidden md:block">
+         <GetInTouchButton variant="inline" className="!relative !shadow-none scale-90 w-full" />
       </div>
       <div className="px-4 mt-6 hidden md:block">
         <Skills />

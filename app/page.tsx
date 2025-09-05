@@ -1,13 +1,13 @@
-import Details from "@/components/details/details";
-import Work from "@/components/work/work";
+import React from 'react'
+import Home from './home/page'
 
-export default function Home() {
+const page = () => {
   return (
-    <div className="min-h-screen w-screen bg-zinc-900 mx-auto overflow-hidden">
-      <div className="flex flex-col md:flex-row md:px-4 mx-auto max-w-[1400px]">
-        <Details />
-        <Work />
-      </div>
-    </div>
-  );
+    <>
+      <Home />
+    </>
+    
+  )
 }
+
+export default page

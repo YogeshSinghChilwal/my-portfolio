@@ -140,3 +140,8 @@
   border: 2px solid transparent;
   background-clip: content-box;
 }
+
+
+body.body--overflow-hidden {
+  overflow: hidden;
+}

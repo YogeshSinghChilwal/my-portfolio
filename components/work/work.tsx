@@ -1,5 +1,7 @@
 import CurrentWorkingProjects from "./currentProjects";
 import Experience from "./experience";
+import Products from "./products";
+import Projects from "./projects";
 import TopProjects from "./topProjects";
 
 const Work = () => {
@@ -9,7 +11,9 @@ const Work = () => {
         <div className="">
           <div className="flex flex-wrap">
             <TopProjects />
+            <Products />
             <Experience />
+            <Projects />
             <CurrentWorkingProjects />
           </div>
         </div>
