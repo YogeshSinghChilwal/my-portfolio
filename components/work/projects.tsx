@@ -2,11 +2,11 @@ import Card from "../card/card";
 
 const Projects = () => {
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 mt-10">
       <div>
-        <h2 className="text-2xl font-semibold text-white">Projects</h2>
+        <h2 className="text-2xl font-semibold text-white">Other Projects</h2>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 mb-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 mb-70 md:mb-10">
         <Card
           title="Layerify-AI"
           description="It lets you to remove background image, change background and add text between layers for Free of cost with high quality."
@@ -22,6 +22,23 @@ const Projects = () => {
             "Aceternity UI",
             "Canvas API",
             "Imagly",
+          ]}
+        />
+
+        <Card
+          title="Fancy UI"
+          description="Every day components library with animations."
+          github="https://github.com/YogeshSinghChilwal/fancy-ui"
+          liveLink="https://fancyui.vercel.app/"
+          image="/projectsPic/fancyui.png"
+          date="Aug, 2025"
+          techstacks={[
+            "Next.js",
+            "Typescript",
+            "Tailwind CSS",
+            "Framer Motion",
+            "Shadcn/ui",
+            "GitHub CI/CD"
           ]}
         />
 

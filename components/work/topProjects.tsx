@@ -8,6 +8,26 @@ const TopProjects = () => {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 mb-10">
         <Card
+          title="YTProKit"
+          description="Currently building a platform that helps YouTubers grow their channels by providing new video ideas, SEO-friendly tags, and other content optimization tools."
+          github="https://github.com/YogeshSinghChilwal/YTProKit-Showcase"
+          image="/projectsPic/YTProKit.png"
+          date="May, 2025"
+          liveLink="https://yt-pro-kit.vercel.app/"
+          techstacks={[
+            "Next.js",
+            "Typescript",
+            "Shadcn/ui",
+            "Next Auth",
+            "Tailwind css",
+            "Gamini AI",
+            "You Tube API",
+            "Prisma",
+            "Postgres SQL",
+            "Razorpay",
+          ]}
+        />
+        <Card
           title="ClipMaster"
           description="It lets you to generate vertical short form video using any long form video with high quality."
           github="https://github.com/YogeshSinghChilwal/ClipMaster-AI-video-clipper"
@@ -25,24 +45,7 @@ const TopProjects = () => {
             "Gemini API",
             "FFmpeg",
             "Modal",
-            "Inngest"
-          ]}
-        />
-
-        <Card
-          title="Fancy UI"
-          description="Every day components library with animations."
-          github="https://github.com/YogeshSinghChilwal/fancy-ui"
-          liveLink="https://fancyui.vercel.app/"
-          image="/projectsPic/fancyui.png"
-          date="Aug, 2025"
-          techstacks={[
-            "Next.js",
-            "Typescript",
-            "Tailwind CSS",
-            "Framer Motion",
-            "Shadcn/ui",
-            "GitHub CI/CD"
+            "Inngest",
           ]}
         />
       </div>
