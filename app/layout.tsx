@@ -17,6 +17,30 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Yogesh Singh Chilwal",
   description: "Building Web Applications That Matter.",
+  keywords: [
+    "yogesh",
+    "singh",
+    "chilwal",
+    "yogesh singh",
+    "IoT",
+    "Arduino",
+    "ESP32",
+    "Coding",
+    "Typescript",
+    "JavaScript",
+    "Next.js",
+    "React",
+    "Interview",
+    "Notes",
+    "Books",
+    "PDF",
+    "Web Development",
+    "Devops",
+    "MERN Stack",
+  ],
+  verification: {
+    google: "9UMDMpdt8DEjRwLGOJlHC7QsAY4B9AeSdVIPkyzhlUg"
+  }
 };
 
 export default function RootLayout({
